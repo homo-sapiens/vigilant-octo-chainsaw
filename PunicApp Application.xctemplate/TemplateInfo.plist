@@ -121,14 +121,14 @@
 			<key>Path</key>
 			<string>Main.storyboard</string>
 		</dict>
-		<key>BaseViews</key>
+		<key>Views/BaseViews</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>BaseViews</string>
+				<string>Views</string>
 			</array>
 			<key>Path</key>
-			<string>Views/BaseViews</string>
+			<string>BaseViews</string>
 		</dict>
 		<key>BaseControllers</key>
 		<dict>
@@ -182,7 +182,7 @@
 			<key>Path</key>
 			<string>ResourcesFolder</string>
 		</dict>
-		<key>BaseView.swift</key>
+		<key>Views/BaseViews/BaseView.swift</key>
 		<dict>
 			<key>Group</key>
 			<array>
@@ -190,7 +190,7 @@
 				<string>BaseViews</string>
 			</array>
 			<key>Path</key>
-			<string>Views/BaseViews/BaseView.swift</string>
+			<string>BaseView.swift</string>
 		</dict>
 		<key>ViewControllers/BaseViewControllers/BaseViewController.swift</key>
 		<dict>
