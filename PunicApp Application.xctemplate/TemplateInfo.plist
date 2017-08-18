@@ -21,8 +21,8 @@
 						<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
 						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
 						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
-						<string>App/ViewControllerTest.swift</string>
 						<string>ViewControllers/BaseViewControllers/BaseViewController.swift</string>
+						<string>Views/BaseViews/BaseView.swift</string>
 						<string>ResourcesFolder</string>
 						<string>Controllers</string>
 						<string>Controllers/BaseControllers</string>
@@ -181,15 +181,6 @@
 			<key>Path</key>
 			<string>ResourcesFolder</string>
 		</dict>
-		<key>App/ViewControllerTest.swift</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>App</string>
-			</array>
-			<key>Path</key>
-			<string>ViewControllerTest.swift</string>
-		</dict>
 		<key>ViewControllers/BaseViewControllers/BaseViewController.swift</key>
 		<dict>
 			<key>Group</key>
@@ -199,6 +190,16 @@
 			</array>
 			<key>Path</key>
 			<string>BaseViewController.swift</string>
+		</dict>
+		<key>Views/BaseViews/BaseView.swift</key>
+		<dict>
+			<key>New item</key>
+			<array>
+				<string>Views</string>
+				<string>BaseViews</string>
+			</array>
+			<key>Path</key>
+			<string>BaseView.swift</string>
 		</dict>
 		<key>Storyboards</key>
 		<dict>
