@@ -27,7 +27,6 @@
 						<string>Controllers</string>
 						<string>Controllers/BaseControllers</string>
 						<string>Views</string>
-						<string>Views/BaseViews</string>
 						<string>Views/CollectionViewCells</string>
 						<string>Views/CustomViews</string>
 						<string>Views/TableViewCells</string>
@@ -108,15 +107,17 @@
 			<key>Path</key>
 			<string>Views</string>
 		</dict>
-		<key>Analytics</key>
+		<key>Utility</key>
 		<dict>
 			<key>Path</key>
-			<string>Analytics</string>
+			<string>Utility</string>
 		</dict>
-		<key>App</key>
+		<key>Base.lproj/Main.storyboard</key>
 		<dict>
+			<key>SortOrder</key>
+			<integer>99</integer>
 			<key>Path</key>
-			<string>App</string>
+			<string>Main.storyboard</string>
 		</dict>
 		<key>BaseViews</key>
 		<dict>
@@ -136,17 +137,15 @@
 			<key>Path</key>
 			<string>Controllers/BaseControllers</string>
 		</dict>
-		<key>Base.lproj/Main.storyboard</key>
+		<key>Analytics</key>
 		<dict>
-			<key>SortOrder</key>
-			<integer>99</integer>
 			<key>Path</key>
-			<string>Main.storyboard</string>
+			<string>Analytics</string>
 		</dict>
-		<key>Utility</key>
+		<key>App</key>
 		<dict>
 			<key>Path</key>
-			<string>Utility</string>
+			<string>App</string>
 		</dict>
 		<key>Models</key>
 		<dict>
@@ -181,6 +180,16 @@
 			<key>Path</key>
 			<string>ResourcesFolder</string>
 		</dict>
+		<key>Views/BaseViews/BaseView.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Views</string>
+				<string>BaseViews</string>
+			</array>
+			<key>Path</key>
+			<string>BaseView.swift</string>
+		</dict>
 		<key>ViewControllers/BaseViewControllers/BaseViewController.swift</key>
 		<dict>
 			<key>Group</key>
@@ -190,16 +199,6 @@
 			</array>
 			<key>Path</key>
 			<string>BaseViewController.swift</string>
-		</dict>
-		<key>Views/BaseViews/BaseView.swift</key>
-		<dict>
-			<key>New item</key>
-			<array>
-				<string>Views</string>
-				<string>BaseViews</string>
-			</array>
-			<key>Path</key>
-			<string>BaseView.swift</string>
 		</dict>
 		<key>Storyboards</key>
 		<dict>
