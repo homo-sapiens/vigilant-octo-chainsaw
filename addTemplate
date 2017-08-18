@@ -1,0 +1,2 @@
+mkdir -p  ~/Library/Developer/Xcode/Templates/Custom/
+cp -r "PunicApp Application.xctemplate" ~/Library/Developer/Xcode/Templates/Custom/
