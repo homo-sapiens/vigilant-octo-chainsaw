@@ -24,9 +24,11 @@
 						<string>ViewControllers/BaseViewControllers/BaseViewController.swift</string>
 						<string>Views/BaseViews/BaseView.swift</string>
 						<string>ResourcesFolder</string>
+						<string>Storyboards</string>
 						<string>Controllers</string>
 						<string>Controllers/BaseControllers</string>
 						<string>Views</string>
+						<string>Views/BaseViews</string>
 						<string>Views/CollectionViewCells</string>
 						<string>Views/CustomViews</string>
 						<string>Views/TableViewCells</string>
@@ -180,7 +182,7 @@
 			<key>Path</key>
 			<string>ResourcesFolder</string>
 		</dict>
-		<key>Views/BaseViews/BaseView.swift</key>
+		<key>BaseView.swift</key>
 		<dict>
 			<key>Group</key>
 			<array>
@@ -188,7 +190,7 @@
 				<string>BaseViews</string>
 			</array>
 			<key>Path</key>
-			<string>BaseView.swift</string>
+			<string>Views/BaseViews/BaseView.swift</string>
 		</dict>
 		<key>ViewControllers/BaseViewControllers/BaseViewController.swift</key>
 		<dict>
