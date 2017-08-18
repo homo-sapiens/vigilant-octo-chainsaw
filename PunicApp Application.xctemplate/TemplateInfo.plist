@@ -14,18 +14,18 @@
 					<key>Nodes</key>
 					<array>
 						<string>ViewController.swift:comments</string>
+						<string>App</string>
 						<string>ViewController.swift:imports:importCocoa</string>
 						<string>ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
 						<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
 						<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
 						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
 						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
-						<string>App</string>
+						<string>App/ViewControllerTest.swift</string>
+						<string>ViewControllers/BaseViewControllers/BaseViewController.swift</string>
 						<string>ResourcesFolder</string>
 						<string>Controllers</string>
 						<string>Controllers/BaseControllers</string>
-						<string>ViewControllers</string>
-						<string>ViewControllers/BaseViewControllers</string>
 						<string>Views</string>
 						<string>Views/BaseViews</string>
 						<string>Views/CollectionViewCells</string>
@@ -35,7 +35,6 @@
 						<string>Utility</string>
 						<string>Utility/Extensions</string>
 						<string>Utility/Managers</string>
-						<string>Storyboards</string>
 						<string>Analytics</string>
 						<string>ThirdParty</string>
 					</array>
@@ -72,19 +71,10 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>App</key>
+		<key>Controllers</key>
 		<dict>
 			<key>Path</key>
-			<string>App</string>
-		</dict>
-		<key>BaseControllers</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>BaseControllers</string>
-			</array>
-			<key>Path</key>
-			<string>Controllers/BaseControllers</string>
+			<string>Controllers</string>
 		</dict>
 		<key>Managers</key>
 		<dict>
@@ -94,35 +84,6 @@
 			</array>
 			<key>Path</key>
 			<string>Utility/Managers</string>
-		</dict>
-		<key>Storyboards</key>
-		<dict>
-			<key>Path</key>
-			<string>Storyboards</string>
-		</dict>
-		<key>Controllers</key>
-		<dict>
-			<key>Path</key>
-			<string>Controllers</string>
-		</dict>
-		<key>Analytics</key>
-		<dict>
-			<key>Path</key>
-			<string>Analytics</string>
-		</dict>
-		<key>Views</key>
-		<dict>
-			<key>Path</key>
-			<string>Views</string>
-		</dict>
-		<key>BaseViews</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>BaseViews</string>
-			</array>
-			<key>Path</key>
-			<string>Views/BaseViews</string>
 		</dict>
 		<key>CustomViews</key>
 		<dict>
@@ -142,26 +103,45 @@
 			<key>Path</key>
 			<string>Views/TableViewCells</string>
 		</dict>
+		<key>Views</key>
+		<dict>
+			<key>Path</key>
+			<string>Views</string>
+		</dict>
+		<key>Analytics</key>
+		<dict>
+			<key>Path</key>
+			<string>Analytics</string>
+		</dict>
+		<key>App</key>
+		<dict>
+			<key>Path</key>
+			<string>App</string>
+		</dict>
+		<key>BaseViews</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>BaseViews</string>
+			</array>
+			<key>Path</key>
+			<string>Views/BaseViews</string>
+		</dict>
+		<key>BaseControllers</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>BaseControllers</string>
+			</array>
+			<key>Path</key>
+			<string>Controllers/BaseControllers</string>
+		</dict>
 		<key>Base.lproj/Main.storyboard</key>
 		<dict>
 			<key>SortOrder</key>
 			<integer>99</integer>
 			<key>Path</key>
 			<string>Main.storyboard</string>
-		</dict>
-		<key>ViewControllerTest.swift</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>App</string>
-			</array>
-		</dict>
-		<key>BaseViewController</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>ViewControllers/BaseViewController</string>
-			</array>
 		</dict>
 		<key>Utility</key>
 		<dict>
@@ -172,20 +152,6 @@
 		<dict>
 			<key>Path</key>
 			<string>Models</string>
-		</dict>
-		<key>ViewControllers</key>
-		<dict>
-			<key>Path</key>
-			<string>ViewControllers</string>
-		</dict>
-		<key>BaseViewControllers</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>BaseViewControllers</string>
-			</array>
-			<key>Path</key>
-			<string>ViewControllers/BaseViewControllers</string>
 		</dict>
 		<key>Extensions</key>
 		<dict>
@@ -214,6 +180,30 @@
 		<dict>
 			<key>Path</key>
 			<string>ResourcesFolder</string>
+		</dict>
+		<key>App/ViewControllerTest.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>App</string>
+			</array>
+			<key>Path</key>
+			<string>ViewControllerTest.swift</string>
+		</dict>
+		<key>ViewControllers/BaseViewControllers/BaseViewController.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>ViewControllers</string>
+				<string>BaseViewControllers</string>
+			</array>
+			<key>Path</key>
+			<string>BaseViewController.swift</string>
+		</dict>
+		<key>Storyboards</key>
+		<dict>
+			<key>Path</key>
+			<string>Storyboards</string>
 		</dict>
 	</dict>
 	<key>Identifier</key>
