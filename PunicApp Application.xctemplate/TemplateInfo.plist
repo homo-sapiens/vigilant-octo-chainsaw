@@ -23,6 +23,7 @@
 						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
 						<string>ViewControllers/BaseViewControllers/BaseViewController.swift</string>
 						<string>Views/BaseViews/BaseView.swift</string>
+						<string>Views/TableViewCells</string>
 						<string>ResourcesFolder</string>
 						<string>Storyboards</string>
 						<string>Controllers</string>
@@ -90,11 +91,11 @@
 			<key>Path</key>
 			<string>Views/CustomViews</string>
 		</dict>
-		<key>TableViewCells</key>
+		<key>Views/TableViewCells</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>TableViewCells</string>
+				<string>Views</string>
 			</array>
 			<key>Path</key>
 			<string>Views/TableViewCells</string>
