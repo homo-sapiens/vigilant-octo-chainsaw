@@ -27,11 +27,6 @@
 						<string>Storyboards</string>
 						<string>Controllers</string>
 						<string>Controllers/BaseControllers</string>
-						<string>Views</string>
-						<string>Views/BaseViews</string>
-						<string>Views/CollectionViewCells</string>
-						<string>Views/CustomViews</string>
-						<string>Views/TableViewCells</string>
 						<string>Models</string>
 						<string>Utility</string>
 						<string>Utility/Extensions</string>
