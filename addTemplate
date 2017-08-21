@@ -11,18 +11,20 @@ cp -r "${templateName}.xctemplate" "${installDirectory}"
 
 # Create empty directories in the base template folder for common directory str$
 declare -a emptyDirectories=(
+    "App"
     "ViewControllers/BaseViewControllers"
     "Views/BaseViews"
     "Views/TableViewCells"
-    "Data Sources"
-    "Extensions"
-    "Fonts"
-    "Resources"
-    "Scripts"
-    "TrueColors"
-    "Utilities"
-    "Views"
-    "View Controllers"
+    "Views/CollectionViewCells"
+    "Views/CustomViews"
+    "Analytics"
+    "Controllers/BaseControllers"
+    "Models"
+    "ResourcesFolder"
+    "Storyboards"
+    "ThirdParty"
+    "Utilities/Extensions"
+    "Utilities/Managers"
     )
 
 for directory in "${emptyDirectories[@]}"; do
