@@ -26,7 +26,7 @@
 						<string>Views/TableViewCells</string>
 						<string>Views/BaseViews/</string>
 						<string>ResourcesFolder</string>
-						<string>Storyboards</string>
+						<string>Storyboards/Auth.storyboard</string>
 						<string>Controllers</string>
 						<string>Controllers/BaseControllers</string>
 						<string>Models</string>
@@ -104,34 +104,15 @@
 			<key>Path</key>
 			<string>Views</string>
 		</dict>
-		<key>Utilities</key>
-		<dict>
-			<key>Path</key>
-			<string>Utilities</string>
-		</dict>
 		<key>Analytics</key>
 		<dict>
 			<key>Path</key>
 			<string>Analytics</string>
 		</dict>
-		<key>BaseControllers</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>BaseControllers</string>
-			</array>
-			<key>Path</key>
-			<string>Controllers/BaseControllers</string>
-		</dict>
 		<key>App</key>
 		<dict>
 			<key>Path</key>
 			<string>App</string>
-		</dict>
-		<key>Models</key>
-		<dict>
-			<key>Path</key>
-			<string>Models</string>
 		</dict>
 		<key>Extensions</key>
 		<dict>
@@ -142,6 +123,30 @@
 			<key>Path</key>
 			<string>Utility/Extensions</string>
 		</dict>
+		<key>BaseControllers</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>BaseControllers</string>
+			</array>
+			<key>Path</key>
+			<string>Controllers/BaseControllers</string>
+		</dict>
+		<key>Models</key>
+		<dict>
+			<key>Path</key>
+			<string>Models</string>
+		</dict>
+		<key>Utilities</key>
+		<dict>
+			<key>Path</key>
+			<string>Utilities</string>
+		</dict>
+		<key>ThirdParty</key>
+		<dict>
+			<key>Path</key>
+			<string>ThirdParty</string>
+		</dict>
 		<key>Views/TableViewCells</key>
 		<dict>
 			<key>Group</key>
@@ -150,11 +155,6 @@
 			</array>
 			<key>Path</key>
 			<string>Views/TableViewCells</string>
-		</dict>
-		<key>ThirdParty</key>
-		<dict>
-			<key>Path</key>
-			<string>ThirdParty</string>
 		</dict>
 		<key>CollectionViewCells</key>
 		<dict>
@@ -165,11 +165,6 @@
 			<key>Path</key>
 			<string>Views/CollectionViewCells</string>
 		</dict>
-		<key>ResourcesFolder</key>
-		<dict>
-			<key>Path</key>
-			<string>ResourcesFolder</string>
-		</dict>
 		<key>Views/BaseViews/BaseView.swift</key>
 		<dict>
 			<key>Group</key>
@@ -179,6 +174,20 @@
 			</array>
 			<key>Path</key>
 			<string>BaseView.swift</string>
+		</dict>
+		<key>ResourcesFolder</key>
+		<dict>
+			<key>Path</key>
+			<string>ResourcesFolder</string>
+		</dict>
+		<key>Storyboards/Auth.storyboard</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Storyboards</string>
+			</array>
+			<key>Path</key>
+			<string>Auth.storyboard</string>
 		</dict>
 		<key>ViewControllers/BaseViewControllers/BaseViewController.swift</key>
 		<dict>
