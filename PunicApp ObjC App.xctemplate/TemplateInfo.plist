@@ -2,46 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Options</key>
+	<key>Nodes</key>
 	<array>
-		<dict>
-			<key>Identifier</key>
-			<string>languageChoice</string>
-			<key>Units</key>
-			<dict>
-				<key>Objective-C</key>
-				<dict>
-					<key>Nodes</key>
-					<array>
-						<string>ViewController.swift:comments</string>
-						<string>ViewController.swift:imports:importCocoa</string>
-						<string>ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
-						<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
-						<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
-						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
-						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
-						<string>App</string>
-						<string>ViewControllers/BaseViewControllers/BaseViewController.h</string>
-						<string>ViewControllers/BaseViewControllers/BaseViewController.m</string>
-						<string>Views/BaseViews/BaseView.h</string>
-						<string>Views/BaseViews/BaseView.m</string>
-						<string>Views/TableViewCells</string>
-						<string>Views/BaseViews/</string>
-						<string>ResourcesFolder</string>
-						<string>Storyboards/Auth.storyboard</string>
-						<string>Controllers</string>
-						<string>Controllers/BaseControllers</string>
-						<string>Models</string>
-						<string>Utilities</string>
-						<string>Utilities/Extensions</string>
-						<string>Utilities/Managers</string>
-						<string>Analytics</string>
-						<string>ThirdParty</string>
-					</array>
-				</dict>
-			</dict>
-		</dict>
+		<string>ViewController.swift:comments</string>
+		<string>ViewController.swift:imports:importCocoa</string>
+		<string>ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+		<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+		<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
+		<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+		<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+		<string>App</string>
+		<string>ViewControllers/BaseViewControllers/BaseViewController.h</string>
+		<string>ViewControllers/BaseViewControllers/BaseViewController.m</string>
+		<string>Views/BaseViews/BaseView.h</string>
+		<string>Views/BaseViews/BaseView.m</string>
+		<string>Views/TableViewCells</string>
+		<string>Views/BaseViews/</string>
+		<string>ResourcesFolder</string>
+		<string>Storyboards/Auth.storyboard</string>
+		<string>Controllers</string>
+		<string>Controllers/BaseControllers</string>
+		<string>Models</string>
+		<string>Utilities</string>
+		<string>Utilities/Extensions</string>
+		<string>Utilities/Managers</string>
+		<string>Analytics</string>
+		<string>ThirdParty</string>
 	</array>
+	<key>Options</key>
+	<array/>
 	<key>SortOrder</key>
 	<integer>1</integer>
 	<key>Concrete</key>
@@ -55,59 +44,10 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>Controllers</key>
-		<dict>
-			<key>Path</key>
-			<string>Controllers</string>
-		</dict>
-		<key>Managers</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Managers</string>
-			</array>
-			<key>Path</key>
-			<string>Utility/Managers</string>
-		</dict>
-		<key>CustomViews</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>CustomViews</string>
-			</array>
-			<key>Path</key>
-			<string>Views/CustomViews</string>
-		</dict>
-		<key>Base.lproj/Main.storyboard</key>
-		<dict>
-			<key>SortOrder</key>
-			<integer>99</integer>
-			<key>Path</key>
-			<string>Main.storyboard</string>
-		</dict>
-		<key>Views</key>
-		<dict>
-			<key>Path</key>
-			<string>Views</string>
-		</dict>
-		<key>Analytics</key>
-		<dict>
-			<key>Path</key>
-			<string>Analytics</string>
-		</dict>
 		<key>App</key>
 		<dict>
 			<key>Path</key>
 			<string>App</string>
-		</dict>
-		<key>Extensions</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Extensions</string>
-			</array>
-			<key>Path</key>
-			<string>Utility/Extensions</string>
 		</dict>
 		<key>BaseControllers</key>
 		<dict>
@@ -118,20 +58,39 @@
 			<key>Path</key>
 			<string>Controllers/BaseControllers</string>
 		</dict>
-		<key>Models</key>
+		<key>Managers</key>
 		<dict>
+			<key>Group</key>
+			<array>
+				<string>Managers</string>
+			</array>
 			<key>Path</key>
-			<string>Models</string>
+			<string>Utility/Managers</string>
 		</dict>
 		<key>Utilities</key>
 		<dict>
 			<key>Path</key>
 			<string>Utilities</string>
 		</dict>
-		<key>ThirdParty</key>
+		<key>Storyboards</key>
 		<dict>
 			<key>Path</key>
-			<string>ThirdParty</string>
+			<string>Storyboards</string>
+		</dict>
+		<key>Controllers</key>
+		<dict>
+			<key>Path</key>
+			<string>Controllers</string>
+		</dict>
+		<key>Analytics</key>
+		<dict>
+			<key>Path</key>
+			<string>Analytics</string>
+		</dict>
+		<key>Views</key>
+		<dict>
+			<key>Path</key>
+			<string>Views</string>
 		</dict>
 		<key>Views/TableViewCells</key>
 		<dict>
@@ -142,48 +101,21 @@
 			<key>Path</key>
 			<string>Views/TableViewCells</string>
 		</dict>
-		<key>CollectionViewCells</key>
+		<key>Base.lproj/Main.storyboard</key>
+		<dict>
+			<key>SortOrder</key>
+			<integer>99</integer>
+			<key>Path</key>
+			<string>Main.storyboard</string>
+		</dict>
+		<key>CustomViews</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>CollectionViewCells</string>
+				<string>CustomViews</string>
 			</array>
 			<key>Path</key>
-			<string>Views/CollectionViewCells</string>
-		</dict>
-		<key>Views/BaseViews/BaseView.h</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Views</string>
-				<string>BaseViews</string>
-			</array>
-			<key>Path</key>
-			<string>BaseView.h</string>
-		</dict>
-		<key>Views/BaseViews/BaseView.m</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Views</string>
-				<string>BaseViews</string>
-			</array>
-			<key>Path</key>
-			<string>BaseView.m</string>
-		</dict>
-		<key>ResourcesFolder</key>
-		<dict>
-			<key>Path</key>
-			<string>ResourcesFolder</string>
-		</dict>
-		<key>Storyboards/Auth.storyboard</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Storyboards</string>
-			</array>
-			<key>Path</key>
-			<string>Auth.storyboard</string>
+			<string>Views/CustomViews</string>
 		</dict>
 		<key>ViewControllers/BaseViewControllers/BaseViewController.h</key>
 		<dict>
@@ -205,15 +137,72 @@
 			<key>Path</key>
 			<string>BaseViewController.m</string>
 		</dict>
-		<key>Storyboards</key>
+		<key>Extensions</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+			</array>
+			<key>Path</key>
+			<string>Utility/Extensions</string>
+		</dict>
+		<key>Models</key>
 		<dict>
 			<key>Path</key>
-			<string>Storyboards</string>
+			<string>Models</string>
+		</dict>
+		<key>ThirdParty</key>
+		<dict>
+			<key>Path</key>
+			<string>ThirdParty</string>
+		</dict>
+		<key>Views/BaseViews/BaseView.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Views</string>
+				<string>BaseViews</string>
+			</array>
+			<key>Path</key>
+			<string>BaseView.m</string>
+		</dict>
+		<key>Views/BaseViews/BaseView.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Views</string>
+				<string>BaseViews</string>
+			</array>
+			<key>Path</key>
+			<string>BaseView.h</string>
+		</dict>
+		<key>Storyboards/Auth.storyboard</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Storyboards</string>
+			</array>
+			<key>Path</key>
+			<string>Auth.storyboard</string>
+		</dict>
+		<key>CollectionViewCells</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>CollectionViewCells</string>
+			</array>
+			<key>Path</key>
+			<string>Views/CollectionViewCells</string>
+		</dict>
+		<key>ResourcesFolder</key>
+		<dict>
+			<key>Path</key>
+			<string>ResourcesFolder</string>
 		</dict>
 	</dict>
 	<key>Identifier</key>
-	<string>com.apple.dt.unit.singleViewApplication</string>
+	<string>com.apple.dt.unit.punicAppObjCSingleViewApplication</string>
 	<key>Description</key>
-	<string>This template provides a starting point for an application that uses a single view. It provides a view controller to manage the view, and a storyboard or nib file that contains the view.</string>
+	<string>Starter Objective-C project for PunicApp iOS projects</string>
 </dict>
 </plist>
