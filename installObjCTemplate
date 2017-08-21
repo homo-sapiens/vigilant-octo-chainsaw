@@ -4,7 +4,7 @@ installDirectory=~/Library/Developer/Xcode/Templates/Custom
 echo "Templates will be installed to ${installDirectory}"
 
 # The name of the project template
-templateName="PunicApp Application"
+templateName="PunicApp ObjC App"
 
 mkdir -p "${installDirectory}"  
 cp -r "${templateName}.xctemplate" "${installDirectory}"
