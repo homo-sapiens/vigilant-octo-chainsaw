@@ -6,7 +6,7 @@
 	<array>
 		<string>ViewController.swift:comments</string>
 		<string>ViewController.swift:imports:importCocoa</string>
-		<string>ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+		<string>ViewController.swift:implementation(___FILEBASENAME___: BaseViewController)</string>
 		<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
 		<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
 		<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
