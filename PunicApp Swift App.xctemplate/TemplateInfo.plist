@@ -46,8 +46,7 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Ancestors</key>
 	<array>
-		<string>com.apple.dt.unit.storyboardApplication</string>
-		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+		<string>com.apple.dt.unit.punicAppBase</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
@@ -188,7 +187,7 @@
 		</dict>
 	</dict>
 	<key>Identifier</key>
-	<string>com.apple.dt.unit.punicAppSwiftSingleViewApplication</string>
+	<string>com.apple.dt.unit.punicAppSwiftApp</string>
 	<key>Description</key>
 	<string>Starter Swift project for PunicApp iOS projects</string>
 </dict>
