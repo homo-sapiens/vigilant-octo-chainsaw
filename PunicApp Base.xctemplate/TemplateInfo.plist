@@ -67,10 +67,103 @@
 	<key>Targets</key>
 	<array>
 		<dict>
+			<key>SharedSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+			</dict>
 			<key>ProductType</key>
 			<string>com.apple.product-type.application</string>
 			<key>TargetIdentifier</key>
 			<string>com.apple.dt.cocoaTouchApplicationTarget</string>
+		</dict>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>Universal</string>
+			<key>Description</key>
+			<string>Which device family to create a project for</string>
+			<key>Identifier</key>
+			<string>universalDeviceFamily</string>
+			<key>Name</key>
+			<string>Devices:</string>
+			<key>SortOrder</key>
+			<integer>1</integer>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Units</key>
+			<dict>
+				<key>Universal</key>
+				<dict>
+					<key>Definitions</key>
+					<dict>
+						<key>Images.xcassets</key>
+						<dict>
+							<key>Path</key>
+							<string>Images-Universal.xcassets</string>
+							<key>SortOrder</key>
+							<integer>100</integer>
+						</dict>
+					</dict>
+					<key>Nodes</key>
+					<array>
+						<string>Info.plist:UISupportedInterfaceOrientations~iPhone</string>
+						<string>Info.plist:UISupportedInterfaceOrientations~iPad</string>
+					</array>
+					<key>Project</key>
+					<dict>
+						<key>SharedSettings</key>
+						<dict>
+							<key>TARGETED_DEVICE_FAMILY</key>
+							<string>1,2</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>Definitions</key>
+					<dict>
+						<key>Images.xcassets</key>
+						<dict>
+							<key>Path</key>
+							<string>Images-iPad.xcassets</string>
+							<key>SortOrder</key>
+							<integer>100</integer>
+						</dict>
+					</dict>
+					<key>Nodes</key>
+					<array>
+						<string>Info.plist:UISupportedInterfaceOrientations~iPad</string>
+					</array>
+					<key>Project</key>
+					<dict>
+						<key>SharedSettings</key>
+						<dict>
+							<key>TARGETED_DEVICE_FAMILY</key>
+							<string>2</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>Definitions</key>
+					<dict>
+						<key>Images.xcassets</key>
+						<dict>
+							<key>Path</key>
+							<string>Images-iPhone.xcassets</string>
+							<key>SortOrder</key>
+							<integer>100</integer>
+						</dict>
+					</dict>
+					<key>Nodes</key>
+					<array>
+						<string>Info.plist:UISupportedInterfaceOrientations~iPhone</string>
+					</array>
+				</dict>
+			</dict>
 		</dict>
 	</array>
 </dict>
