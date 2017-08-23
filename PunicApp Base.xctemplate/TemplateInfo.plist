@@ -9,7 +9,7 @@
 		<string>Info.plist:iPhone</string>
 		<string>Images.xcassets</string>
 		<string>Info.plist:UIMainStoryboardFile</string>
-		<string>Base.lproj/Main.storyboard</string>
+		<string>Storyboards/Main.storyboard</string>
 		<string>Base.lproj/LaunchScreen.xib</string>
 		<string>App</string>
 		<string>Views/TableViewCells</string>
@@ -215,7 +215,7 @@
 			<key>Path</key>
 			<string>Views/TableViewCells</string>
 		</dict>
-		<key>Base.lproj/Main.storyboard</key>
+		<key>Storyboards/Main.storyboard</key>
 		<dict>
 			<key>Group</key>
 			<array>
