@@ -217,6 +217,10 @@
 		</dict>
 		<key>Base.lproj/Main.storyboard</key>
 		<dict>
+			<key>Group</key>
+			<array>
+				<string>Storyboards</string>
+			</array>
 			<key>SortOrder</key>
 			<string>100</string>
 			<key>Path</key>
