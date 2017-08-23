@@ -87,11 +87,19 @@
 		</dict>
 		<key>AppDelegate.h</key>
 		<dict>
+			<key>Group</key>
+			<array>
+				<string>App</string>
+			</array>
 			<key>Path</key>
 			<string>AppDelegate.h</string>
 		</dict>
 		<key>AppDelegate.m</key>
 		<dict>
+			<key>Group</key>
+			<array>
+				<string>App</string>
+			</array>
 			<key>Path</key>
 			<string>AppDelegate.m</string>
 		</dict>
