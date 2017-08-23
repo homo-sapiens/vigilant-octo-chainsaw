@@ -1,0 +1,46 @@
+# The path of the install directory
+
+installDirectory=~/Library/Developer/Xcode/Templates/Custom
+echo "Templates will be installed to ${installDirectory}"
+
+# The name of the base project template
+baseTemplateName="PunicApp Base"
+
+# The name of the Obj C project template
+objCTemplateName="PunicApp ObjC App"
+
+# The name of the Swift project template
+swiftTemplateName="PunicApp Swift App"
+
+mkdir -p "${installDirectory}"
+
+# Create base template directory
+cp -r "${baseTemplateName}.xctemplate" "${installDirectory}"
+
+# Create Obj C template directory  
+cp -r "${objCTemplateName}.xctemplate" "${installDirectory}"
+
+# Create Swift template directory
+cp -r "${swiftTemplateName}.xctemplate" "${installDirectory}"
+
+# Create empty directories in template folder for common directory str$
+declare -a emptyDirectories=(
+    "App"
+    "ViewControllers/BaseViewControllers"
+    "Views/BaseViews"
+    "Views/TableViewCells"
+    "Views/CollectionViewCells"
+    "Views/CustomViews"
+    "Analytics"
+    "Controllers/BaseControllers"
+    "Models"
+    "ResourcesFolder"
+    "Storyboards"
+    "ThirdParty"
+    "Utilities/Extensions"
+    "Utilities/Managers"
+    )
+
+for directory in "${emptyDirectories[@]}"; do
+    mkdir -p "${installDirectory}/${baseTemplateName}.xctemplate/${directory}"
+done
