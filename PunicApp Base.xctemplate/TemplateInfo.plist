@@ -4,6 +4,18 @@
 <dict>
 	<key>Identifier</key>
 	<string>com.apple.dt.unit.punicAppBase</string>
+	<key>Concrete</key>
+	<false/>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.prefixable</string>
+		<string>com.apple.dt.unit.bundleBase</string>
+		<string>com.apple.dt.unit.iosBase</string>
+	</array>
 	<key>Nodes</key>
 	<array>
 		<string>Info.plist:PackageType</string>
@@ -13,18 +25,6 @@
 		<string>Info.plist:UIMainStoryboardFile</string>
 		<string>Base.lproj/Main.storyboard</string>
 		<string>Base.lproj/LaunchScreen.xib</string>
-	</array>
-	<key>SortOrder</key>
-	<integer>1</integer>
-	<key>Concrete</key>
-	<false/>
-	<key>Kind</key>
-	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
-	<key>Ancestors</key>
-	<array>
-		<string>com.apple.dt.unit.prefixable</string>
-		<string>com.apple.dt.unit.bundleBase</string>
-		<string>com.apple.dt.unit.iosBase</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
