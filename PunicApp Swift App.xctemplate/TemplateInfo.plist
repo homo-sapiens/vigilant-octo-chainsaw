@@ -2,41 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Options</key>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.punicAppSwiftApp</string>
+	<key>Nodes</key>
 	<array>
-		<dict>
-			<key>Units</key>
-			<dict>
-				<key>Swift</key>
-				<dict>
-					<key>Nodes</key>
-					<array>
-						<string>ViewController.swift:comments</string>
-						<string>ViewController.swift:imports:importCocoa</string>
-						<string>ViewController.swift:implementation(___FILEBASENAME___: BaseViewController)</string>
-						<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
-						<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
-						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
-						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
-						<string>App</string>
-						<string>ViewControllers/BaseViewControllers/BaseViewController.swift</string>
-						<string>Views/BaseViews/BaseView.swift</string>
-						<string>Views/TableViewCells</string>
-						<string>Views/BaseViews/</string>
-						<string>ResourcesFolder</string>
-						<string>Storyboards/Auth.storyboard</string>
-						<string>Controllers</string>
-						<string>Controllers/BaseControllers</string>
-						<string>Models</string>
-						<string>Utilities</string>
-						<string>Utilities/Extensions</string>
-						<string>Utilities/Managers</string>
-						<string>Analytics</string>
-						<string>ThirdParty</string>
-					</array>
-				</dict>
-			</dict>
-		</dict>
+		<string>AppDelegate.swift</string>
+		<string>ViewController.swift:comments</string>
+		<string>ViewController.swift:imports:importCocoa</string>
+		<string>ViewController.swift:implementation(___FILEBASENAME___: BaseViewController)</string>
+		<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+		<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
+		<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+		<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+		<string>ViewControllers/BaseViewControllers/BaseViewController.swift</string>
+		<string>Views/BaseViews/BaseView.swift</string>
+		<string>Views/TableViewCells</string>
+		<string>Views/BaseViews/</string>
 	</array>
 	<key>SortOrder</key>
 	<integer>1</integer>
@@ -50,101 +31,14 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>Controllers</key>
-		<dict>
-			<key>Path</key>
-			<string>Controllers</string>
-		</dict>
-		<key>Managers</key>
+		<key>AppDelegate.swift</key>
 		<dict>
 			<key>Group</key>
 			<array>
-				<string>Managers</string>
+				<string>App</string>
 			</array>
 			<key>Path</key>
-			<string>Utility/Managers</string>
-		</dict>
-		<key>CustomViews</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>CustomViews</string>
-			</array>
-			<key>Path</key>
-			<string>Views/CustomViews</string>
-		</dict>
-		<key>Base.lproj/Main.storyboard</key>
-		<dict>
-			<key>SortOrder</key>
-			<integer>99</integer>
-			<key>Path</key>
-			<string>Main.storyboard</string>
-		</dict>
-		<key>Views</key>
-		<dict>
-			<key>Path</key>
-			<string>Views</string>
-		</dict>
-		<key>Analytics</key>
-		<dict>
-			<key>Path</key>
-			<string>Analytics</string>
-		</dict>
-		<key>App</key>
-		<dict>
-			<key>Path</key>
-			<string>App</string>
-		</dict>
-		<key>Extensions</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Extensions</string>
-			</array>
-			<key>Path</key>
-			<string>Utility/Extensions</string>
-		</dict>
-		<key>BaseControllers</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>BaseControllers</string>
-			</array>
-			<key>Path</key>
-			<string>Controllers/BaseControllers</string>
-		</dict>
-		<key>Models</key>
-		<dict>
-			<key>Path</key>
-			<string>Models</string>
-		</dict>
-		<key>Utilities</key>
-		<dict>
-			<key>Path</key>
-			<string>Utilities</string>
-		</dict>
-		<key>ThirdParty</key>
-		<dict>
-			<key>Path</key>
-			<string>ThirdParty</string>
-		</dict>
-		<key>Views/TableViewCells</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Views</string>
-			</array>
-			<key>Path</key>
-			<string>Views/TableViewCells</string>
-		</dict>
-		<key>CollectionViewCells</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>CollectionViewCells</string>
-			</array>
-			<key>Path</key>
-			<string>Views/CollectionViewCells</string>
+			<string>AppDelegate.swift</string>
 		</dict>
 		<key>Views/BaseViews/BaseView.swift</key>
 		<dict>
@@ -156,20 +50,6 @@
 			<key>Path</key>
 			<string>BaseView.swift</string>
 		</dict>
-		<key>ResourcesFolder</key>
-		<dict>
-			<key>Path</key>
-			<string>ResourcesFolder</string>
-		</dict>
-		<key>Storyboards/Auth.storyboard</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Storyboards</string>
-			</array>
-			<key>Path</key>
-			<string>Auth.storyboard</string>
-		</dict>
 		<key>ViewControllers/BaseViewControllers/BaseViewController.swift</key>
 		<dict>
 			<key>Group</key>
@@ -180,15 +60,22 @@
 			<key>Path</key>
 			<string>BaseViewController.swift</string>
 		</dict>
-		<key>Storyboards</key>
-		<dict>
-			<key>Path</key>
-			<string>Storyboards</string>
-		</dict>
 	</dict>
-	<key>Identifier</key>
-	<string>com.apple.dt.unit.punicAppSwiftApp</string>
 	<key>Description</key>
 	<string>Starter Swift project for PunicApp iOS projects</string>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>TargetIdentifier</key>
+			<string>com.apple.dt.cocoaTouchApplicationTarget</string>
+			<key>ProductType</key>
+			<string>com.apple.product-type.application</string>
+			<key>BuildSettings</key>
+			<dict>
+				<key>USE_LEGACY_SWIFT_LANGUAGE_VERSION</key>
+				<true/>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>
