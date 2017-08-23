@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Identifier</key>
-	<string>com.apple.dt.unit.punicAppObjCApp</string>
 	<key>Nodes</key>
 	<array>
 		<string>AppDelegate.h</string>
@@ -237,27 +235,9 @@
 			<string>AppDelegate.m</string>
 		</dict>
 	</dict>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.punicAppObjCApp</string>
 	<key>Description</key>
 	<string>Starter Objective-C project for PunicApp iOS projects</string>
-	<key>Targets</key>
-	<array>
-		<dict>
-			<key>BuildPhases</key>
-			<array>
-				<dict>
-					<key>Class</key>
-					<string>Resources</string>
-				</dict>
-				<dict>
-					<key>Class</key>
-					<string>Frameworks</string>
-				</dict>
-				<dict>
-					<key>Class</key>
-					<string>Sources</string>
-				</dict>
-			</array>
-		</dict>
-	</array>
 </dict>
 </plist>
