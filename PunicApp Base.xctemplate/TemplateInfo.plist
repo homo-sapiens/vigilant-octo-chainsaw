@@ -2,20 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Identifier</key>
-	<string>com.apple.dt.unit.punicAppBase</string>
-	<key>Concrete</key>
-	<false/>
-	<key>Kind</key>
-	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
-	<key>SortOrder</key>
-	<integer>1</integer>
-	<key>Ancestors</key>
-	<array>
-		<string>com.apple.dt.unit.prefixable</string>
-		<string>com.apple.dt.unit.bundleBase</string>
-		<string>com.apple.dt.unit.iosBase</string>
-	</array>
 	<key>Nodes</key>
 	<array>
 		<string>Info.plist:PackageType</string>
@@ -25,48 +11,31 @@
 		<string>Info.plist:UIMainStoryboardFile</string>
 		<string>Base.lproj/Main.storyboard</string>
 		<string>Base.lproj/LaunchScreen.xib</string>
+		<string>App</string>
+		<string>Views/TableViewCells</string>
+		<string>ResourcesFolder</string>
+		<string>Storyboards/Auth.storyboard</string>
+		<string>Controllers</string>
+		<string>Controllers/BaseControllers</string>
+		<string>Models</string>
+		<string>Utilities</string>
+		<string>Utilities/Extensions</string>
+		<string>Utilities/Managers</string>
+		<string>Analytics</string>
+		<string>ThirdParty</string>
 	</array>
-	<key>Definitions</key>
-	<dict>
-		<key>Images.xcassets</key>
-		<dict>
-			<key>Path</key>
-			<string>Images.xcassets</string>
-			<key>SortOrder</key>
-			<integer>99</integer>
-		</dict>
-		<key>Info.plist:PackageType</key>
-		<string>&lt;key&gt;CFBundlePackageType&lt;/key&gt;
-&lt;string&gt;APPL&lt;/string&gt;
-</string>
-		<key>Info.plist:iPhone</key>
-		<string>&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
-&lt;true/&gt;</string>
-		<key>Info.plist:LaunchScreen</key>
-		<string>&lt;key&gt;UILaunchStoryboardName&lt;/key&gt;
-&lt;string&gt;LaunchScreen&lt;/string&gt;
-</string>
-		<key>Info.plist:UIMainStoryboardFile</key>
-		<string>&lt;key&gt;UIMainStoryboardFile&lt;/key&gt;
-&lt;string&gt;Main&lt;/string&gt;</string>
-		<key>Base.lproj/Main.storyboard</key>
-		<dict>
-			<key>Path</key>
-			<string>Main.storyboard</string>
-			<key>SortOrder</key>
-			<string>100</string>
-		</dict>
-		<key>Base.lproj/LaunchScreen.xib</key>
-		<dict>
-			<key>Path</key>
-			<string>LaunchScreen.xib</string>
-			<key>SortOrder</key>
-			<integer>101</integer>
-		</dict>
-	</dict>
 	<key>Targets</key>
 	<array>
 		<dict>
+			<key>SharedSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+			</dict>
+			<key>ProductType</key>
+			<string>com.apple.product-type.application</string>
+			<key>TargetIdentifier</key>
+			<string>com.apple.dt.cocoaTouchApplicationTarget</string>
 			<key>BuildPhases</key>
 			<array>
 				<dict>
@@ -82,15 +51,6 @@
 					<string>Sources</string>
 				</dict>
 			</array>
-			<key>SharedSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-			</dict>
-			<key>ProductType</key>
-			<string>com.apple.product-type.application</string>
-			<key>TargetIdentifier</key>
-			<string>com.apple.dt.cocoaTouchApplicationTarget</string>
 		</dict>
 	</array>
 	<key>Options</key>
@@ -98,30 +58,62 @@
 		<dict>
 			<key>Default</key>
 			<string>Universal</string>
-			<key>Description</key>
-			<string>Which device family to create a project for</string>
-			<key>Identifier</key>
-			<string>universalDeviceFamily</string>
-			<key>Name</key>
-			<string>Devices:</string>
 			<key>SortOrder</key>
 			<integer>1</integer>
 			<key>Type</key>
 			<string>popup</string>
+			<key>Name</key>
+			<string>Devices:</string>
+			<key>Identifier</key>
+			<string>universalDeviceFamily</string>
+			<key>Description</key>
+			<string>Which device family to create a project for</string>
 			<key>Units</key>
 			<dict>
-				<key>Universal</key>
+				<key>iPhone</key>
 				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Info.plist:UISupportedInterfaceOrientations~iPhone</string>
+					</array>
 					<key>Definitions</key>
 					<dict>
 						<key>Images.xcassets</key>
 						<dict>
-							<key>Path</key>
-							<string>Images-Universal.xcassets</string>
 							<key>SortOrder</key>
 							<integer>100</integer>
+							<key>Path</key>
+							<string>Images-iPhone.xcassets</string>
 						</dict>
 					</dict>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Info.plist:UISupportedInterfaceOrientations~iPad</string>
+					</array>
+					<key>Project</key>
+					<dict>
+						<key>SharedSettings</key>
+						<dict>
+							<key>TARGETED_DEVICE_FAMILY</key>
+							<string>2</string>
+						</dict>
+					</dict>
+					<key>Definitions</key>
+					<dict>
+						<key>Images.xcassets</key>
+						<dict>
+							<key>SortOrder</key>
+							<integer>100</integer>
+							<key>Path</key>
+							<string>Images-iPad.xcassets</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>Universal</key>
+				<dict>
 					<key>Nodes</key>
 					<array>
 						<string>Info.plist:UISupportedInterfaceOrientations~iPhone</string>
@@ -135,51 +127,179 @@
 							<string>1,2</string>
 						</dict>
 					</dict>
-				</dict>
-				<key>iPad</key>
-				<dict>
 					<key>Definitions</key>
 					<dict>
 						<key>Images.xcassets</key>
 						<dict>
-							<key>Path</key>
-							<string>Images-iPad.xcassets</string>
 							<key>SortOrder</key>
 							<integer>100</integer>
-						</dict>
-					</dict>
-					<key>Nodes</key>
-					<array>
-						<string>Info.plist:UISupportedInterfaceOrientations~iPad</string>
-					</array>
-					<key>Project</key>
-					<dict>
-						<key>SharedSettings</key>
-						<dict>
-							<key>TARGETED_DEVICE_FAMILY</key>
-							<string>2</string>
-						</dict>
-					</dict>
-				</dict>
-				<key>iPhone</key>
-				<dict>
-					<key>Definitions</key>
-					<dict>
-						<key>Images.xcassets</key>
-						<dict>
 							<key>Path</key>
-							<string>Images-iPhone.xcassets</string>
-							<key>SortOrder</key>
-							<integer>100</integer>
+							<string>Images-Universal.xcassets</string>
 						</dict>
 					</dict>
-					<key>Nodes</key>
-					<array>
-						<string>Info.plist:UISupportedInterfaceOrientations~iPhone</string>
-					</array>
 				</dict>
 			</dict>
 		</dict>
 	</array>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Concrete</key>
+	<false/>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.prefixable</string>
+		<string>com.apple.dt.unit.bundleBase</string>
+		<string>com.apple.dt.unit.iosBase</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>App</key>
+		<dict>
+			<key>Path</key>
+			<string>App</string>
+		</dict>
+		<key>BaseControllers</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>BaseControllers</string>
+			</array>
+			<key>Path</key>
+			<string>Controllers/BaseControllers</string>
+		</dict>
+		<key>Managers</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Managers</string>
+			</array>
+			<key>Path</key>
+			<string>Utility/Managers</string>
+		</dict>
+		<key>Utilities</key>
+		<dict>
+			<key>Path</key>
+			<string>Utilities</string>
+		</dict>
+		<key>Info.plist:UIMainStoryboardFile</key>
+		<string>&lt;key&gt;UIMainStoryboardFile&lt;/key&gt;
+&lt;string&gt;Main&lt;/string&gt;</string>
+		<key>Storyboards</key>
+		<dict>
+			<key>Path</key>
+			<string>Storyboards</string>
+		</dict>
+		<key>Controllers</key>
+		<dict>
+			<key>Path</key>
+			<string>Controllers</string>
+		</dict>
+		<key>Analytics</key>
+		<dict>
+			<key>Path</key>
+			<string>Analytics</string>
+		</dict>
+		<key>Views</key>
+		<dict>
+			<key>Path</key>
+			<string>Views</string>
+		</dict>
+		<key>Views/TableViewCells</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Views</string>
+			</array>
+			<key>Path</key>
+			<string>Views/TableViewCells</string>
+		</dict>
+		<key>Base.lproj/Main.storyboard</key>
+		<dict>
+			<key>SortOrder</key>
+			<string>100</string>
+			<key>Path</key>
+			<string>Main.storyboard</string>
+		</dict>
+		<key>CustomViews</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>CustomViews</string>
+			</array>
+			<key>Path</key>
+			<string>Views/CustomViews</string>
+		</dict>
+		<key>Base.lproj/LaunchScreen.xib</key>
+		<dict>
+			<key>SortOrder</key>
+			<integer>101</integer>
+			<key>Path</key>
+			<string>LaunchScreen.xib</string>
+		</dict>
+		<key>Info.plist:PackageType</key>
+		<string>&lt;key&gt;CFBundlePackageType&lt;/key&gt;
+&lt;string&gt;APPL&lt;/string&gt;
+</string>
+		<key>Extensions</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Extensions</string>
+			</array>
+			<key>Path</key>
+			<string>Utility/Extensions</string>
+		</dict>
+		<key>Models</key>
+		<dict>
+			<key>Path</key>
+			<string>Models</string>
+		</dict>
+		<key>ThirdParty</key>
+		<dict>
+			<key>Path</key>
+			<string>ThirdParty</string>
+		</dict>
+		<key>Storyboards/Auth.storyboard</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Storyboards</string>
+			</array>
+			<key>Path</key>
+			<string>Auth.storyboard</string>
+		</dict>
+		<key>Info.plist:iPhone</key>
+		<string>&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
+&lt;true/&gt;</string>
+		<key>Images.xcassets</key>
+		<dict>
+			<key>SortOrder</key>
+			<integer>99</integer>
+			<key>Path</key>
+			<string>Images.xcassets</string>
+		</dict>
+		<key>Info.plist:LaunchScreen</key>
+		<string>&lt;key&gt;UILaunchStoryboardName&lt;/key&gt;
+&lt;string&gt;LaunchScreen&lt;/string&gt;
+</string>
+		<key>CollectionViewCells</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>CollectionViewCells</string>
+			</array>
+			<key>Path</key>
+			<string>Views/CollectionViewCells</string>
+		</dict>
+		<key>ResourcesFolder</key>
+		<dict>
+			<key>Path</key>
+			<string>ResourcesFolder</string>
+		</dict>
+	</dict>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.punicAppBase</string>
 </dict>
 </plist>

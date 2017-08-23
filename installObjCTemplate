@@ -36,5 +36,5 @@ declare -a emptyDirectories=(
     )
 
 for directory in "${emptyDirectories[@]}"; do
-    mkdir -p "${installDirectory}/${templateName}.xctemplate/${directory}"
+    mkdir -p "${installDirectory}/${baseTemplateName}.xctemplate/${directory}"
 done
