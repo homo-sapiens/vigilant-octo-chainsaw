@@ -188,6 +188,8 @@
 &lt;string&gt;Main&lt;/string&gt;</string>
 		<key>Storyboards</key>
 		<dict>
+			<key>SortOrder</key>
+			<string>3</string>
 			<key>Path</key>
 			<string>Storyboards</string>
 		</dict>
@@ -214,17 +216,6 @@
 			</array>
 			<key>Path</key>
 			<string>Views/TableViewCells</string>
-		</dict>
-		<key>Storyboards/Main.storyboard</key>
-		<dict>
-			<key>Group</key>
-			<array>
-				<string>Storyboards</string>
-			</array>
-			<key>SortOrder</key>
-			<string>100</string>
-			<key>Path</key>
-			<string>Main.storyboard</string>
 		</dict>
 		<key>CustomViews</key>
 		<dict>
@@ -267,6 +258,8 @@
 		</dict>
 		<key>Storyboards/Auth.storyboard</key>
 		<dict>
+			<key>SortOrder</key>
+			<string>99</string>
 			<key>Group</key>
 			<array>
 				<string>Storyboards</string>
@@ -277,12 +270,16 @@
 		<key>Info.plist:iPhone</key>
 		<string>&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
 &lt;true/&gt;</string>
-		<key>Images.xcassets</key>
+		<key>Storyboards/Main.storyboard</key>
 		<dict>
+			<key>Group</key>
+			<array>
+				<string>Storyboards</string>
+			</array>
 			<key>SortOrder</key>
-			<integer>99</integer>
+			<string>100</string>
 			<key>Path</key>
-			<string>Images.xcassets</string>
+			<string>Main.storyboard</string>
 		</dict>
 		<key>Info.plist:LaunchScreen</key>
 		<string>&lt;key&gt;UILaunchStoryboardName&lt;/key&gt;
