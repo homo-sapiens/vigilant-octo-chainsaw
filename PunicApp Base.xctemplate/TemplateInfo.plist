@@ -6,6 +6,7 @@
 	<string>com.apple.dt.unit.punicAppBase</string>
 	<key>Nodes</key>
 	<array>
+		<string>Info.plist:PackageType</string>
 		<string>Info.plist:LaunchScreen</string>
 		<string>Info.plist:iPhone</string>
 		<string>Images.xcassets</string>
@@ -27,6 +28,17 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>Images.xcassets</key>
+		<dict>
+			<key>Path</key>
+			<string>Images.xcassets</string>
+			<key>SortOrder</key>
+			<integer>99</integer>
+		</dict>
+		<key>Info.plist:PackageType</key>
+		<string>&lt;key&gt;CFBundlePackageType&lt;/key&gt;
+&lt;string&gt;APPL&lt;/string&gt;
+</string>
 		<key>Info.plist:iPhone</key>
 		<string>&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
 &lt;true/&gt;</string>
