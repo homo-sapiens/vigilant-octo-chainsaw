@@ -6,6 +6,10 @@
 	<string>com.apple.dt.unit.punicAppBase</string>
 	<key>Nodes</key>
 	<array>
+		<string>Info.plist:LaunchScreen</string>
+		<string>Info.plist:iPhone</string>
+		<string>Images.xcassets</string>
+		<string>Info.plist:UIMainStoryboardFile</string>
 		<string>Base.lproj/Main.storyboard</string>
 		<string>Base.lproj/LaunchScreen.xib</string>
 	</array>
@@ -23,6 +27,16 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>Info.plist:iPhone</key>
+		<string>&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
+&lt;true/&gt;</string>
+		<key>Info.plist:LaunchScreen</key>
+		<string>&lt;key&gt;UILaunchStoryboardName&lt;/key&gt;
+&lt;string&gt;LaunchScreen&lt;/string&gt;
+</string>
+		<key>Info.plist:UIMainStoryboardFile</key>
+		<string>&lt;key&gt;UIMainStoryboardFile&lt;/key&gt;
+&lt;string&gt;Main&lt;/string&gt;</string>
 		<key>Base.lproj/Main.storyboard</key>
 		<dict>
 			<key>Path</key>
