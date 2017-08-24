@@ -63,19 +63,13 @@
 	</dict>
 	<key>Description</key>
 	<string>Starter Swift project for PunicApp iOS projects</string>
-	<key>Targets</key>
-	<array>
+	<key>Project</key>
+	<dict>
+		<key>SharedSettings</key>
 		<dict>
-			<key>TargetIdentifier</key>
-			<string>com.apple.dt.cocoaTouchApplicationTarget</string>
-			<key>ProductType</key>
-			<string>com.apple.product-type.application</string>
-			<key>BuildSettings</key>
-			<dict>
-				<key>USE_LEGACY_SWIFT_LANGUAGE_VERSION</key>
-				<true/>
-			</dict>
+			<key>SWIFT_VERSION</key>
+			<string>2.3</string>
 		</dict>
-	</array>
+	</dict>
 </dict>
 </plist>
