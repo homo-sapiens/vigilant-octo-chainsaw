@@ -1,5 +1,5 @@
 //
-//  AppDelegate.m
+//  ___FILENAME___
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.

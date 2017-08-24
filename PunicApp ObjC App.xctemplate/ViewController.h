@@ -6,9 +6,9 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface BaseViewController : UIViewController
+@interface ViewController: BaseViewController
 
 
 @end

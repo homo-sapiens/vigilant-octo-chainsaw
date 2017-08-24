@@ -6,13 +6,13 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "ViewController.h"
 
-@interface BaseViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation BaseViewController
+@implementation ViewController
 
 #pragma mark - View Life Cycle
 

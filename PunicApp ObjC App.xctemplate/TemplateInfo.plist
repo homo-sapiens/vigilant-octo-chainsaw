@@ -21,18 +21,10 @@
 		<string>AppDelegate.h</string>
 		<string>AppDelegate.m</string>
 		<string>main.m</string>
-		<string>ViewController.h:comments</string>
-		<string>ViewController.h:imports:importHeader:BaseViewController.h</string>
-		<string>ViewController.h:interface(___FILEBASENAME___ : BaseViewController)</string>
-		<string>ViewController.m:comments</string>
-		<string>ViewController.m:imports:importHeader:ViewController.h</string>
-		<string>ViewController.m:extension</string>
-		<string>ViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
-		<string>ViewController.m:implementation:methods:viewDidLoad:super</string>
-		<string>ViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
-		<string>ViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
 		<string>ViewControllers/BaseViewControllers/BaseViewController.h</string>
 		<string>ViewControllers/BaseViewControllers/BaseViewController.m</string>
+		<string>ViewControllers/ViewController.h</string>
+		<string>ViewControllers/ViewController.m</string>
 		<string>Views/BaseViews/BaseView.h</string>
 		<string>Views/BaseViews/BaseView.m</string>
 	</array>
@@ -64,6 +56,24 @@
 			</array>
 			<key>Path</key>
 			<string>BaseViewController.m</string>
+		</dict>
+		<key>ViewControllers/ViewController.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>ViewControllers</string>
+			</array>
+			<key>Path</key>
+			<string>ViewController.h</string>
+		</dict>
+		<key>ViewControllers/ViewController.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>ViewControllers</string>
+			</array>
+			<key>Path</key>
+			<string>ViewController.m</string>
 		</dict>
 		<key>Views/BaseViews/BaseView.m</key>
 		<dict>
