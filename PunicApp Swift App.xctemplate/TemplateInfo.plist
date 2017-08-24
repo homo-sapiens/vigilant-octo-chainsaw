@@ -7,14 +7,8 @@
 	<key>Nodes</key>
 	<array>
 		<string>AppDelegate.swift</string>
-		<string>ViewController.swift:comments</string>
-		<string>ViewController.swift:imports:importCocoa</string>
-		<string>ViewController.swift:implementation(___FILEBASENAME___: BaseViewController)</string>
-		<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
-		<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
-		<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
-		<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
 		<string>ViewControllers/BaseViewControllers/BaseViewController.swift</string>
+		<string>ViewControllers/ViewController.swift</string>
 		<string>Views/BaseViews/BaseView.swift</string>
 		<string>Views/TableViewCells</string>
 		<string>Views/BaseViews/</string>
@@ -59,6 +53,15 @@
 			</array>
 			<key>Path</key>
 			<string>BaseViewController.swift</string>
+		</dict>
+		<key>ViewControllers/ViewController.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>ViewControllers</string>
+			</array>
+			<key>Path</key>
+			<string>ViewController.swift</string>
 		</dict>
 	</dict>
 	<key>Description</key>
