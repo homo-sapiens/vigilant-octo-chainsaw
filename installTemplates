@@ -1,7 +1,7 @@
 # The path of the install directory
 
 installDirectory=~/Library/Developer/Xcode/Templates/Custom
-echo "Templates will be installed to ${installDirectory}"
+echo "Project Templates will be installed to ${installDirectory}"
 
 # The name of the base project template
 baseTemplateName="PunicApp Base"
@@ -44,3 +44,14 @@ declare -a emptyDirectories=(
 for directory in "${emptyDirectories[@]}"; do
     mkdir -p "${installDirectory}/${baseTemplateName}.xctemplate/${directory}"
 done
+
+# Install File Templates
+fileTemplatesDirectory=~/Library/Developer/Xcode/Templates/File\ Templates/
+echo "File Templates will be installed to ${fileTemplatesDirectory}"
+
+mkdir -p "${fileTemplatesDirectory}"
+
+
+# Create file templates directory
+fileTemplatesFolder=FileTemplates/
+cp -r "${fileTemplatesFolder}"*  "${fileTemplatesDirectory}"
