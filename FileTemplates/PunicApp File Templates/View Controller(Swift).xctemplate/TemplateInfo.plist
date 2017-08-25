@@ -6,8 +6,6 @@
 	<array>
 		<string>public.swift-source</string>
 	</array>
-	<key>DefaultCompletionName</key>
-	<string>GIGSection</string>
 	<key>Description</key>
 	<string>PunicApp Swift View Controller template</string>
 	<key>Kind</key>
@@ -16,7 +14,7 @@
 	<array>
 		<dict>
 			<key>Placeholder</key>
-			<string>View Controller Name</string>
+			<string>Name(without VC)</string>
 			<key>Description</key>
 			<string>View Controller Name</string>
 			<key>Identifier</key>
