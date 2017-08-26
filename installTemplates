@@ -3,19 +3,22 @@
 installDirectory=~/Library/Developer/Xcode/Templates/Custom
 echo "Project Templates will be installed to ${installDirectory}"
 
+# The name project templates folder
+mainProjectFolderName="ProjectTemplates"
+
 # The name of the base project template
 baseTemplateName="PunicApp Base"
 
 # The name of the Obj C project template
-objCTemplateName="PunicApp ObjC App"
+objCTemplateName="${mainProjectFolderName}/PunicApp ObjC App"
 
 # The name of the Swift project template
-swiftTemplateName="PunicApp Swift App"
+swiftTemplateName="${mainProjectFolderName}/PunicApp Swift App"
 
 mkdir -p "${installDirectory}"
 
 # Create base template directory
-cp -r "${baseTemplateName}.xctemplate" "${installDirectory}"
+cp -r "${mainProjectFolderName}/${baseTemplateName}.xctemplate" "${installDirectory}"
 
 # Create Obj C template directory  
 cp -r "${objCTemplateName}.xctemplate" "${installDirectory}"
