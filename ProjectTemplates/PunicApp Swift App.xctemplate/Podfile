@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+source 'https://github.com/homo-sapiens/test-specs'
+source 'https://github.com/CocoaPods/Specs.git'
+
+def shared_pods
+    pod ‘PAWorkTimeSlider’
+end
+
+target '___PACKAGENAME___' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ___PACKAGENAME___
+	shared_pods
+end

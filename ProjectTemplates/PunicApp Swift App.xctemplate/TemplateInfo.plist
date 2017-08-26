@@ -6,6 +6,7 @@
 	<string>com.apple.dt.unit.punicAppSwiftApp</string>
 	<key>Nodes</key>
 	<array>
+		<string>../Podfile</string>
 		<string>AppDelegate.swift</string>
 		<string>ViewControllers/BaseViewControllers/BaseViewController.swift</string>
 		<string>ViewControllers/ViewController.swift</string>
@@ -25,6 +26,15 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
+		<key>../Podfile</key>
+		<dict>
+			<key>Path</key>
+			<string>Podfile</string>
+			<key>Group</key>
+			<array>
+				<string>Non-iOS Resources</string>
+			</array>
+		</dict>
 		<key>AppDelegate.swift</key>
 		<dict>
 			<key>Group</key>
@@ -71,7 +81,7 @@
 		<key>SharedSettings</key>
 		<dict>
 			<key>SWIFT_VERSION</key>
-			<string>2.3</string>
+			<string>3.0</string>
 		</dict>
 	</dict>
 </dict>
