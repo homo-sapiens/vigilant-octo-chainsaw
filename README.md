@@ -10,6 +10,12 @@ To install or update the templates in Xcode:
 
 - Launch Xcode and create a new project. Confirm you see a Project Templates category under iOS, as seen below.
 
-![](screenshots/template-selection.png)
+![](screenshots/projectTemplate-selection.png)
 
-After running script project and file templates will be installed in ~/Library/Developer/Xcode/Templates directory.
+- Also you can use file templates. Confirm you see a PunicApp File Templates category after pressed `New File...` , as seen below.
+
+![](screenshots/fileTemplate-selection.png)
+
+## Version history
+
+* 1.x: works with Swift 3 in Xcode 8
