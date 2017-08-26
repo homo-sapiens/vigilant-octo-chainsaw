@@ -12,7 +12,7 @@ To install or update the templates in Xcode:
 
 ![](screenshots/projectTemplate-selection.png)
 
-- Also you can use file templates. Confirm you see a PunicApp File Templates category after pressed `New File...` , as seen below.
+- Also you can use file templates. Confirm you see a PunicApp File Templates category under iOS, after you pressed `New File...` , as seen below.
 
 ![](screenshots/fileTemplate-selection.png)
 
