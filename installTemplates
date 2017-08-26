@@ -1,6 +1,6 @@
 # The path of the install directory
 
-installDirectory=~/Library/Developer/Xcode/Templates/Custom
+installDirectory=~/Library/Developer/Xcode/Templates/Project\ Templates
 echo "Project Templates will be installed to ${installDirectory}"
 
 # The name project templates folder
