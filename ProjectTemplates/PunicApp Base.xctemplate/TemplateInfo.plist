@@ -23,6 +23,7 @@
 		<string>Utilities/Managers</string>
 		<string>Analytics</string>
 		<string>ThirdParty</string>
+		<string>../Podfile</string>
 	</array>
 	<key>Targets</key>
 	<array>
@@ -260,12 +261,12 @@
 		</dict>
 		<key>Storyboards/Auth.storyboard</key>
 		<dict>
-			<key>SortOrder</key>
-			<string>99</string>
 			<key>Group</key>
 			<array>
 				<string>Storyboards</string>
 			</array>
+			<key>SortOrder</key>
+			<string>99</string>
 			<key>Path</key>
 			<string>Auth.storyboard</string>
 		</dict>
@@ -300,6 +301,15 @@
 		<dict>
 			<key>Path</key>
 			<string>ResourcesFolder</string>
+		</dict>
+		<key>../Podfile</key>
+		<dict>
+			<key>Path</key>
+			<string>Podfile</string>
+			<key>Group</key>
+			<array>
+				<string>Non-iOS Resources</string>
+			</array>
 		</dict>
 	</dict>
 	<key>Identifier</key>
